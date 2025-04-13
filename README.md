@@ -1,16 +1,55 @@
-## Hi there 👋
+## 👋 Hi there! I'm Kathy Li
 
-<!--
-**KathyLi77/KathyLi77** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### An aspiring Data Scientist with expertise in NLP, Deep Learning, and predictive modeling.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**💼 Data Science Consultant at Aetna, a CVS Health Company**
+
+🎓 *Master of Science in Applied Data Science* — University of Chicago  
+🎓 *B.S. in Economics (Mathematical Econ Track)* — Purdue University
+
+---
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jiaqi-kathy-li/)  
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/KathyLi77)  
+📫 **Email:** jiaqili723@outlook.com
+
+---
+
+### 🧠 A little more about me...
+
+```julia
+struct TechnophileProfile
+    DigitalBrushes::Vector{String}
+    PaletteOfSkills::Dict{String, Vector{String}}
+    SeedsNurturing::Vector{String}
+    BrainGym::Dict{String, String}
+end
+
+# Fields:
+# 'DigitalBrushes': Programming languages as digital brushes.
+# 'PaletteOfSkills': A dictionary of tech stacks grouped by theme.
+# 'SeedsNurturing': Current areas of interest.
+# 'BrainGym': Daily coding platforms.
+
+hyProfile = TechnophileProfile(
+    ["Python", "R", "SQL", "MATLAB", "HTML"],
+    Dict(
+        "ML & Stats" => ["Scikit-learn", "Naive Bayes", "Boosting", "A/B Testing", "Hypothesis Testing", "Regression", "Time Series"],
+        "Deep Learning" => ["TensorFlow", "PyTorch", "Recommendation Systems", "Transformer", "CNNs", "LSTMs"],
+        "Data Viz" => ["Tableau", "Power BI", "Looker Studio", "Matplotlib", "Excel"],
+        "Data Engineering" => ["SQL Server", "Snowflake", "AWS RDS", "BigQuery", "Apache Airflow", "MongoDB"],
+        "Web & Scripting" => ["Selenium", "BeautifulSoup", "Google Analytics", "HTML"]
+    ),
+    ["LLMs", "Causal Inference", "AutoML", "Cloud ML Pipelines"],
+    Dict(
+        "Python" => "Project notebooks",
+        "SQL" => "Mode / Snowflake queries"
+    )
+)
+```
+
+---
+
+_“I turn data into stories—and stories into change.”_
